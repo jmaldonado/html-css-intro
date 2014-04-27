@@ -23,10 +23,10 @@
     <section id="main_content">
     <h2>Lesson Objectives</h2>
     <ol>
-      <li>Learn the history of HTML and CSS</li>
+      <li>Learn some background about HTML and CSS</li>
       <li>Discuss what HTML and CSS do, and how they do it</li>
       <li>Audience Participation: Guess That HTML Tag</li>
-      <li>How to create web pages using HTML and CSS</li>
+      <li>Learn which tools are needed to design HTML and CSS</li>
     </ol>
     <p>Please hold all questions / applause until the end of the 15 minute lesson</p>
     </section>

@@ -26,6 +26,7 @@ body {
 
 header, main, footer {
   clear: both;
+  display: block;
 }
 
 main {

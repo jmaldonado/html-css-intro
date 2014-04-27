@@ -26,6 +26,7 @@ body {
 
 header, main, footer {
   clear: both;
+  display: block;
 }
 
 main {
@@ -35,7 +36,8 @@ main {
   margin-left: auto;
   margin-right: auto;
   color: #183026;
-  background-color: #fff;
+  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 1.0);
 }
 
 header#body, main section#main_content, footer section#footer_content {
@@ -49,7 +51,7 @@ header#body, main section#main_content, footer section#footer_content {
 } 
 
 header#body {
-  color: #fff;
+  color: #ffffff;
 }
 
 nav#front {
@@ -57,7 +59,7 @@ nav#front {
   left: 0;
   top: 0;
   width: 100%;
-  background-color: #fff;
+  background-color: #ffffff;
   color: #183026; 
   -webkit-box-shadow: rgba(16, 16, 32, 0.247059) 0px 0px 2px 0px, rgba(0, 0, 0, 0.14902) 0px 0px 4px 0px;
   box-shadow: rgba(16, 16, 32, 0.247059) 0px 0px 2px 0px, rgba(0, 0, 0, 0.14902) 0px 0px 4px 0px; 
