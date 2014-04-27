@@ -56,7 +56,7 @@ header#body h1 {
   font-size: 5.0em;
   text-transform: uppercase;
   font-style: normal;
-  text-shadow: rgba(0, 0, 0, 0.74902) 1px 1px 1px; 
+  text-shadow: rgba(0, 0, 0, 0.9) 1px 1px 1px; 
   text-align: center;
   margin-bottom: 1.2em;
   padding-top: 1em;
@@ -70,9 +70,34 @@ header#body aside {
   font-weight: 300;
   font-size: 24px;
   letter-spacing: 3px;
-  text-shadow: rgba(0, 0, 0, 0.74902) 0px 0px 3px;
+  text-shadow: rgba(0, 0, 0, 0.9) 0px 0px 3px;
   border-top: solid 1px rgba(255,255,255,0.5);
   padding: 4.2em 0 2.5em 0;
+  line-height: 1.5em;
+}
+
+section#main_content h2 {
+  font-weight: 700;
+  font-size: 3.5em;
+  margin: 0 0 1.5em 0;
+}
+
+section#main_content ol {
+  margin: 1.5em 0 1.5em 0;
+  padding: 0 0 1em 0;
+  font-weight: 400;
+  list-style-type: decimal;
+}
+
+section#main_content p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+section#main_content ol li {
+  font-size: 1.5em;
+  line-height: 1.5em; 
+  margin: 0 0 0 3.5em;
 }
 
 footer section#footer_content {
