@@ -1,0 +1,151 @@
+/* 
+  This stylesheet was written by Juan Maldonado, and borrows elements from:
+
+  Overflow 1.1 by HTML5 UP
+  html5up.net | @n33co
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+*/
+
+
+/* It's important to reset some elements down to 0 for browser compatibility. This stylesheet below does the job. */
+
+@import url("reset.css");
+
+/* Now let's import a nice Google font for visibility in all systems. In the old days, you used to have to hope the computer accessing the web page had the True Type font installed.  */
+
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic");
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background: #183026 url('../images/bg.jpg') no-repeat;
+  background-size: cover;
+  background-position: center 0;
+  background-attachment: fixed;
+}
+
+header, main, footer {
+  clear: both;
+}
+
+main {
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #183026;
+  background-color: #fff;
+}
+
+header#body, main section#main_content, footer section#footer_content {
+  width: 80%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 10em 0 10em 0;
+} 
+
+header#body {
+  color: #fff;
+}
+
+nav#front {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  color: #183026; 
+  -webkit-box-shadow: rgba(16, 16, 32, 0.247059) 0px 0px 2px 0px, rgba(0, 0, 0, 0.14902) 0px 0px 4px 0px;
+  box-shadow: rgba(16, 16, 32, 0.247059) 0px 0px 2px 0px, rgba(0, 0, 0, 0.14902) 0px 0px 4px 0px; 
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+nav#front ul {
+  list-style-type: none;
+}
+
+nav#front ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav#front ul li a:link, nav#front ul li a:visited, nav#front ul li a:hover, nav#front ul li a:active {
+  text-decoration: none;
+  font-weight: bold;
+  color: #183026;
+} 
+
+
+header#body h1 {
+  font-size: 5.0em;
+  text-transform: uppercase;
+  font-style: normal;
+  text-shadow: rgba(0, 0, 0, 0.74902) 0px 0px 4px; 
+  text-align: center;
+  margin-bottom: 1.2em;
+  padding-top: 1em;
+}
+
+header#body aside {
+  text-align: center;
+  text-transform: center;
+  font-style: normal; 
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 24px;
+  letter-spacing: 3px;
+  text-shadow: rgba(0, 0, 0, 0.74902) 0px 0px 3px;
+  border-top: solid 1px rgba(255,255,255,0.5);
+  padding: 4.2em 0 2.5em 0;
+}
+
+main section#main_content header#main h2 {
+  font-weight: 400;
+  line-height: 1.2em;
+  margin: 0 0 1em 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+main section#main_content header#main p {
+  font-size: 2em;
+  font-weight: 300;
+  line-height: 2em;
+  margin-bottom: 2em;
+}
+
+section#main_content article {
+  margin: 3em 0 3em 0; 
+  line-height: 2em;
+  font-weight: 300;
+}
+
+section#main_content article h3 {
+  font-weight: 600;
+  font-size: 1.5em;
+  margin: 0 0 1.5em 0;
+}
+
+section#main_content article p {
+  margin: 0 0 1.5em 0;
+  padding: 0 0 1em 0;
+}
+
+section#main_content article#first {
+  font-size: 150%;
+}
+
+footer section#footer_content {
+  background: rgba(52, 27, 43, 0.5);
+  color: white;
+  padding: 5em; 
+  margin: 5em auto 5em auto;
+  text-align: center;
+}
+
