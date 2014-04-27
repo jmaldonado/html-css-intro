@@ -151,6 +151,11 @@ footer section#footer_content {
   text-align: center;
 }
 
+footer section#footer_content a:link, footer section#footer_content a:visited, footer section#footer_content a:hover, footer section#footer_content a:active {
+  color: white;
+  text-decoration: none;
+}
+
 .bold {
   font-weight: 900;
 }

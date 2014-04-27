@@ -49,6 +49,11 @@ header#body, main section#main_content, footer section#footer_content {
   padding: 10em 0 10em 0;
 } 
 
+
+main section#main_content a:link, main section#main_content a:visited, main section#main_content a:hover, main section#main_content a:active {
+  color: #183026; 
+}
+
 header#body {
   color: #fff;
 }
