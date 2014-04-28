@@ -1,41 +1,26 @@
 <html>
 
 <head>
-   <title>Welcome to Introduction to HTML and CSS - HTML, Page 2</title>
+   <title>Welcome to Introduction to HTML and CSS - CSS</title>
 </head>
 
-<body bgcolor="#c1c1c1">
-<h1>Let's explore more HTML tags and their attributes</h1>
+<body>
+<h1>What is CSS?</h1>
 
-<p>We have added an attribute to the &lt;body&gt; tag to make the background color of the page a bit more interesting.</p>
+<p>CSS is Cascading Style Sheets. Cascading Style Sheets is a language that is used to very powerfully apply formatting and visuals to web pages. It is used to change the look and behavior of existing HTML tags using visual attributes and units of measurement unsupported by HTML.</p>
 
-<i>This text is in italics because it's been marked up with the proper tag</i>. This text here is not.<br />
-<u>This text is underlined</u>.<br />
-<b>Here is some bold text</b>.<br />
-<br />
-<br />
-See the text in italics above? It was done by using the &lt;i&gt; tag, like so:
+<p>If you have a web site that contains hundreds of HTML pages that all link to the same stylesheet, you can change one line of code in that stylesheet and fundamentally change the aesthetics of the entire web site.</p>
+
+<p>Example: The following code in a stylesheet makes all paragraphs in a site 12pixels in size, using the Verdana font in italics with half inch margins:</p>
+
 <pre>
-&lt;i&gt;This text is in italics&lt;/i&gt;. This text here is not.
+p { 
+  font: italic 12px Verdana;
+  margin: .5in;
+}
 </pre>
 
-<p>Now let's guess what the tags are for the underlined text and the bold text. View the source code and see!</p>
-
-<h2>Ordered and unordered lists</h2>
-
-<ul>
-  <li>This is a list item in an unordered list.</li>
-  <li>The &lt;li&gt; tag denotes all the different list items.</li>
-  <li>Your browser interprets these list items and automatically adds line breaks between each one, and creates the bullets and adds indents.</li> 
-</ul>
-
-<ol>
-  <li>This is an ordered list.</li>
-  <li>The browser interprets list items in much the same way as list items in an unordered list but with a very important difference.</li>
-  <li>Have you spotted the difference yet?</li>
-</ol>
-
-<a href="page3.html">This is very basic and old HTML. Let's see what the new HTML looks like.</a>
+<a href="page3.html">Let's see a page written in HTML 5 without CSS, then the same page with CSS</a>
 
 </body>
 
